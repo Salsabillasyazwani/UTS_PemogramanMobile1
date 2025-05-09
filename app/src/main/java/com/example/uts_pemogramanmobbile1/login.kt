@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 class login : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_welcome)
+        setContentView(R.layout.activity_login)
 
         val inputEmail = findViewById<EditText>(R.id.editEmail)
         val inputPassword = findViewById<EditText>(R.id.editPassword)
