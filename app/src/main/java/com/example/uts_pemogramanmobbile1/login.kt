@@ -19,6 +19,12 @@ class login : AppCompatActivity() {
         val loginButton = findViewById<Button>(R.id.btnLogin)
         val signupText = findViewById<TextView>(R.id.btnSignup)
 
+        val buttonNull = findViewById<Button>(R.id.btnTidakAda) // ID ini tidak ada di layout
+
+        buttonNull.setOnClickListener {
+            Toast.makeText(this, "Ini tombol palsu", Toast.LENGTH_SHORT).show()
+        }
+
         loginButton.setOnClickListener {
             val email = inputEmail.text.toString().trim()
             val password = inputPassword.text.toString().trim()

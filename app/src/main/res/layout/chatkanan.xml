@@ -9,7 +9,7 @@
         android:id="@+id/messageText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/buble"
+        android:background="@drawable/buble1"
         android:padding="10dp"
         android:textColor="#ffffff" />
 </LinearLayout>

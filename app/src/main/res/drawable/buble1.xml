@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#D7BFDC"/>  <!-- Warna ungu tua -->
+    <corners android:radius="16dp"/>
+</shape>
